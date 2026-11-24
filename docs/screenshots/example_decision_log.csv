@@ -1,0 +1,2 @@
+timestamp,case,modality,AI_recommendation,decision,reason
+2026-11-24T13:30:01+00:00,Case B — deliberately misleading AI recommendation,Interactive counterfactual,Lower concern,Reject recommendation,Low SpO2 and high HR conflict with the lower-concern output.
