@@ -1,0 +1,15 @@
+flowchart TD
+    U[Clinician / student user] -->|Select case and inspect data| UI[Streamlit interface]
+    UI --> CASES[Synthetic vignette store]
+    CASES --> SIM[Deterministic simulated recommendation]
+    SIM --> OUT[Recommendation and illustrative confidence]
+    OUT --> ATTR[Static feature contribution view]
+    OUT --> CF[Counterfactual-style verification prompt]
+    ATTR --> DEC[Accept / reject / override controls]
+    CF --> DEC
+    DEC --> LOG[Session decision log]
+    LOG --> CSV[CSV export]
+    classDef implemented fill:#e8f5e9,stroke:#388e3c,color:#1b5e20;
+    classDef simulated fill:#fff3e0,stroke:#ef6c00,color:#7f3b00;
+    class U,UI,ATTR,CF,DEC,LOG,CSV implemented;
+    class CASES,SIM,OUT simulated;
