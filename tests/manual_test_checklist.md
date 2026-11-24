@@ -1,0 +1,11 @@
+# Manual test checklist
+- [ ] Install packages from requirements.txt.
+- [ ] Start the app with `streamlit run app/streamlit_app.py`.
+- [ ] Select each of the three cases.
+- [ ] Switch between both explanation modalities.
+- [ ] Confirm Case B displays the deliberate-error warning in counterfactual mode.
+- [ ] Record Accept, Reject, and Override decisions.
+- [ ] Confirm decisions appear in the session log.
+- [ ] Download and open the CSV.
+- [ ] Capture screenshots of the initial screen, attribution view, counterfactual view, and Case B.
+- [ ] Confirm the report and README describe only what actually works.
