@@ -1,0 +1,8 @@
+{
+  "notice": "Synthetic teaching scenarios only. Not clinical data or validated thresholds.",
+  "case_names": [
+    "Case A \u2014 routine review",
+    "Case B \u2014 deliberately misleading AI recommendation",
+    "Case C \u2014 borderline case"
+  ]
+}
